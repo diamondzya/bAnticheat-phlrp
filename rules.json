@@ -1,0 +1,22 @@
+{
+  "gtaRunning": true,
+  "sampRunning": true,
+  "monitorProcessesConstantly": true,
+  "forbiddenFiles": [],
+  "forbiddenDirectories": [
+    {
+      "path": "modloader",
+      "action": "PREVENT_CONNECT"
+    }
+  ],
+  "forbiddenProcesses": [
+    {
+      "name": "cheatengine",
+      "action": "PREVENT_CONNECT"
+    },
+    {
+      "name": "samphack",
+      "action": "NONE"
+    }
+  ]
+}
